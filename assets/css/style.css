@@ -65,7 +65,6 @@ footer {
 
 .video {
 	width: 100%;
-	max-width: 980px;
 	margin: 0 auto;
 	max-width: 300px;
 }
@@ -118,4 +117,25 @@ footer {
 .social a img {
 	width: 100%;
 	/*max-width: 40px;*/
+}
+
+.intro {
+	z-index: 2500;
+	position: relative;
+	padding: 40px 10px 10px;
+	border: 1px solid #000;
+}
+
+.image {
+	z-index: 5000;
+	position: relative;
+	width: 100%;
+	max-width: 80px;
+	padding: 25%;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: -40px;
+	background-image: url('http://www.arrse.co.uk/community/attachments/tit-monday-you-fucking-tit-jpg.118689/');
+	background-size: cover;
+	background-position: 35% 50%;
 }
