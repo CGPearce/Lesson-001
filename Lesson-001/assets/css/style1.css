@@ -1,0 +1,68 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#mainContainer {
+	padding: 20px;
+	background: grey;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.page {
+	background: #fff;
+	margin: 0 auto;
+}
+
+.content {
+	padding: 60px 20px 20px;
+}
+
+.hero {
+	text-align: center;
+	background-image: url(http://wallpapercave.com/wp/5GmBLco.jpg);
+}
+
+#Profile-Img {
+	border-radius: 50%;
+	margin-bottom: -60px;
+}
+
+.abilities {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.abilities p {
+	padding: 0 10px;
+	max-width: 550px;
+	float: left;
+	text-align: justify;
+}
+
+.abilities img {
+	max-width: 200px;
+	padding: 0 10px;
+}
+
+.icons {
+	padding: 10px;
+	text-align: center;
+}
+
+.icons img {
+	max-width: 50px;
+	border-radius: 20%;
+	opacity: 0.5;
+}
+
+.icons img:hover {
+	opacity: 1;
+}

@@ -1,0 +1,60 @@
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#hero {
+	width: 100%;
+	height: 150px;
+	margin: 0;
+	background-image: url(https://scontent.xx.fbcdn.net/t31.0-8/c0.321.851.315/p851x315/13497812_1148405241865147_3359724224535347546_o.jpg);
+	background-position: center;
+}
+
+#hero img {
+	width: 30px;
+}
+
+#mainContainer {
+	padding: 20px;
+	background: grey;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.page {
+	background: #fff;
+	margin: 0 auto;
+}
+
+.content {
+	padding: 10px;
+	text-align: center;
+}
+
+.content iframe {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.icons {
+	padding: 10px;
+	text-align: center;
+}
+
+.icons img {
+	max-width: 100px;
+	border-radius: 20%;
+	opacity: 0.5;
+}
+
+.icons img:hover {
+	opacity: 1;
+}
